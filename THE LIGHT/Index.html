@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
      <script src="js/modernizr.js"></script>
         <div style="text-align:center;clear:both">
- </head>
- <body>
-    <style>
+            <base target="_self">
+ 
+     <style>
     h1{font-size: 40px;
         color: white;
         font-family: monospace;}
@@ -46,20 +46,44 @@ video{
 
         }  
 
+#banner{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
 
+}
 
-
+#container{ top: 0;
+position:fixed; }
 </style>
-    <h1>我们幻想神创造了我们，然后我们就创造了神——Dan Simons in 《Hyperion》</h1>
-    <div class="container">
+</head>
+<body>
+
+    <div class="container" >
     <ul class="Nav MainNav">
-        <li class="MainNav-Button MainNav-Button_LeftOfActive"><a href="#">起源</a></li>
-        <li class="MainNav-Button MainNav-Button_Active"><a href="#">发展</a></li>
-        <li class="MainNav-Button MainNav-Button_RightOfActive"><a href="#">现状</a></li>
-          <li class="MainNav-Button"><a href="#">展望</a></li>
+        <li class="MainNav-Button MainNav-Button_LeftOfActive"><a href="#">origin</a></li>
+        <li class="MainNav-Button MainNav-Button_Active"><a href="#">nowadays</a></li>
+        <li class="MainNav-Button MainNav-Button_RightOfActive"><a href="IMAGINATION.html">imagination</a></li>
+          <li class="MainNav-Button"><a href="#">future</a></li>
     </ul></div>
-    <video src="media\awake.MP4"
-    autoplay="autoplay" muted="muted" 
-    ></video>
-  </body>
+        <h1>找不到上帝所在，就在面前创造一个上帝——Dan Simons in 《Hyperion》</h1>
+        <br>
+        <br>
+        <br>
+        <hr>
+
+   <div id="introduction"> <h1>AI</h1>
+    <p style="font-size: 30px;font-family: KaiTi"><strong> “Artificial intelligence”，or“Alluse instrument”？</strong>
+        <hr>
+        <br>
+        
+   </p></div>
+   <video src="media/cowboy and echo.mp4" muted="muted" autoplay="autoplay"></video>
+  
+ <div id="banner" align="bottom" >bannner<img src="#"></div>
+
+  </body>   
+
 </html>
